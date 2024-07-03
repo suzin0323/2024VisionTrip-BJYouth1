@@ -1032,7 +1032,7 @@ textarea {
   background: #ffffff;
   border-radius: 0.375em;
   border: none;
-  border: solid 1px rgba(61, 220, 93, 0.75);
+  border: solid 1px #9fa3a6;
   color: inherit;
   display: block;
   outline: 0;
@@ -1102,7 +1102,7 @@ input[type="radio"] {
   input[type="checkbox"] + label,
   input[type="radio"] + label {
     text-decoration: none;
-    color: #18cb4e;
+    color: #9fa3a6;
     cursor: pointer;
     display: inline-block;
     font-size: 1em;
@@ -1126,7 +1126,7 @@ input[type="radio"] {
     input[type="radio"] + label:before {
       background: #ffffff;
       border-radius: 0.375em;
-      border: solid 1px rgba(27, 232, 48, 0.75);
+      border: solid 1px #9fa3a6;
       content: '';
       display: inline-block;
       font-size: 0.8em;
@@ -1163,7 +1163,7 @@ input[type="radio"] + label:before {
   opacity: 1.0; }
 
 ::-moz-placeholder {
-  color: #26d020 !important;
+  color: #9fa3a6 !important;
   opacity: 1.0; }
 
 :-ms-input-placeholder {
@@ -1173,7 +1173,7 @@ input[type="radio"] + label:before {
 /* Box */
 .box {
   border-radius: 0.375em;
-  border: solid 1px rgb(37, 210, 37);
+  border: solid 1px #9fa3a6;
   margin-bottom: 2em;
   padding: 1.5em; }
   .box > :last-child,
@@ -1360,7 +1360,7 @@ ul.contact {
   padding: 0; }
   ul.contact li {
     text-decoration: none;
-    border-top: solid 1px rgba(10, 221, 14, 0.75);
+    border-top: solid 1px #9fa3a6;
     margin: 1.5em 0 0 0;
     padding: 1.5em 0 0 3em;
     position: relative; }
@@ -1446,27 +1446,27 @@ table {
   margin: 0 0 2em 0;
   width: 100%; }
   table tbody tr {
-    border: solid 1px rgba(72, 173, 33, 0.75);
+    border: solid 1px #9fa3a6;
     border-left: 0;
     border-right: 0; }
     table tbody tr:nth-child(2n + 1) {
-      background-color: rgba(16, 154, 18, 0.25); }
+      background-color: #9fa3a6; }
   table td {
     padding: 0.75em 0.75em; }
   table th {
-    color: #3fad14;
+    color: #9fa3a6;
     font-size: 0.9em;
     font-weight: 600;
     padding: 0 0.75em 0.75em 0.75em;
     text-align: left; }
   table thead {
-    border-bottom: solid 2px rgba(44, 157, 48, 0.75); }
+    border-bottom: solid 2px #9fa3a6; }
   table tfoot {
-    border-top: solid 2px rgba(70, 169, 50, 0.75); }
+    border-top: solid 2px #9fa3a6; }
   table.alt {
     border-collapse: separate; }
     table.alt tbody tr td {
-      border: solid 1px rgba(61, 162, 83, 0.75);
+      border: solid 1px #9fa3a6;
       border-left-width: 0;
       border-top-width: 0; }
       table.alt tbody tr td:first-child {
@@ -1582,7 +1582,7 @@ button,
 
 /* Mini Posts */
 .mini-posts article {
-  border-top: solid 1px rgba(46, 185, 44, 0.75);
+  border-top: solid 1px #9fa3a6;
   margin-top: 2em;
   padding-top: 2em; }
   .mini-posts article .image {
@@ -1925,7 +1925,7 @@ button,
     -webkit-transition: left 0.5s ease;
     -ms-transition: left 0.5s ease;
     transition: left 0.5s ease;
-    -webkit-tap-highlight-color: rgba(25, 228, 83, 0.804); /*??????*/
+    -webkit-tap-highlight-color: #9fa3a6; /*??????*/
     border: 0;
     display: block;
     height: 7.5em;
@@ -2019,13 +2019,13 @@ button,
       text-indent: 7.25em;
       width: 7.25em; }
       #sidebar .toggle:before {
-        color: #35bd16; /*??????*/
+        color: #9fa3a6; /*??????*/
         margin-left: -0.0625em;
         margin-top: -0.25em;
         font-size: 1.1rem;
         z-index: 1; }
       #sidebar .toggle:after {
-        background: #35bd16;/*??????*/
+        background: #9fa3a6;/*??????*/
         border-radius: 0.375em;
         content: '';
         height: 3.5em;
@@ -2223,7 +2223,7 @@ button,
   margin: 0.5em 0 0 0;
   padding: 0.5em 0 0 0; }
   #menu > ul > li > ul {
-    color: #16ce13;
+    color: #9fa3a6;
     display: none;
     margin: 0.5em 0 1.5em 0;
     padding-left: 1em; }

@@ -2,22 +2,30 @@
     <head>
         <title>2024 비전트립 갤러리</title> <!--사이트 이름-->
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<style>
-			.media-object {
-				display: block;
-				width: 100%;
-				max-width: 1000px; /* 원하는 최대 너비 설정 */
-				margin: 0 auto 20px; /* 가운데 정렬 및 하단 여백 */
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<style>
+			.image-container {
+				display: flex;
+				justify-content: space-between; /* 사진들 사이의 간격 조절 */
+				gap: 10px; /* 사진들 사이의 간격 */
 			}
-	
-			.media-object img,
-			.media-object video {
-				width: 100%;
-				height: auto;
+
+			.image-item {
+				flex: 1; /* 각 아이템이 동일한 너비를 가지도록 함 */
+				text-align: center; /* 설명을 중앙 정렬 */
 			}
-		</style>
+
+			.image-item img {
+				width: 100%; /* 사진의 너비 조절 */
+				height: auto; /* 사진 비율 유지 */
+			}
+
+			.image-item p {
+				margin-top: 10px; /* 설명과 사진 사이의 간격 */
+			}
+  		</style>
+
     </head>
     <body class="is-preload">
 
@@ -37,10 +45,43 @@
 								</header>
 							<!--파일들-->
 							<section>
-							<span class="media-object">
-								<img src="images/비전트립 조 최종.png" alt="" />
-							</span>
+							<div class="image-container">
+								<div class="image-item">
+									<h2>안현지 조</h2>
+									<img src="images/안현지.png" alt="사진 1">
+									<h2>✨최주성<br>✨허사라<br>✨우은채</h2>
+								</div>
+								<div class="image-item">
+									<h2>조이레 조</h2>
+									<img src="images/조이레.png" alt="사진 2">
+									<h2>✨김에스더<br>✨김동욱<br>✨윤예람</h2>
+								</div>
+								<div class="image-item">
+									<h2>이연희 조</h2>
+									<img src="images/이연희.png" alt="사진 3">
+									<h2>✨박하은<br>✨김유진<br>✨김주용 집사님<br>✨김승훈 목사님</h2>
+								</div>
+							</div>
 							</section>
+							<section>
+								<div class="image-container">
+									<div class="image-item">
+										<h2>최예찬 조</h2>
+										<img src="images/최예찬.png" alt="사진 1">
+										<h2>✨최승찬<br>✨최윤하<br>✨김경욱</h2>
+									</div>
+									<div class="image-item">
+										<h2>유수진 조</h2>
+										<img src="images/유수진.png" alt="사진 2">
+										<h2>✨공준성<br>✨육영서<br>✨김민준</h2>
+									</div>
+									<div class="image-item">
+										<h2>이성재 조</h2>
+										<img src="images/이성재.png" alt="사진 3">
+										<h2>✨유재현<br>✨이용민<br>✨조충현</h2>
+									</div>
+								</div>
+								</section>
 						</div>
 					</div>
 
